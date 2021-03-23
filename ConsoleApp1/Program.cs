@@ -6,7 +6,9 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World! This is a test 2");
+            var condor = "text";
+            condor = "tester";
+            Console.WriteLine("Hello World! This is a test 2" + condor);
         }
     }
 }
